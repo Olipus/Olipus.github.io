@@ -23,10 +23,6 @@ body {
     font-family: 'Roboto', 'Segoe UI', sans-serif;
 }
 
-button {
-    font-family: 'DejaVu Sans Mono';
-}
-
 a {
     color: var(--king-blue)
 }
@@ -41,15 +37,15 @@ a:visited{
 
 .link-button {
 	background-color: var(--violet-dark);
-	border-radius:16px;
+	border-radius: 16px;
 	border: 2px solid var(--violet-light);
-	display:inline-block;
-	cursor:pointer;
+	display: inline-block;
+	cursor: pointer;
 	color: var(--text);
-	font-family:Courier New;
-	font-size:16px;
+	font-family: 'DejaVu Sans Mono';
+	font-size: 16px;
 	padding: 12px 24px;
-	text-decoration:none;
+	text-decoration: none;
 }
 .link-button:hover {
 	background-color: var(--violet-light);
